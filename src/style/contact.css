@@ -1,0 +1,225 @@
+.globalSection-contact-3234234{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/public/Picture/cosmos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerPrincipal-Contact-3474387{
+    height: 90%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left,#0411337e, #003f9173, #0411337e);
+    backdrop-filter: blur(2px);
+    display: flex;
+    border-radius: 20px;
+}
+.informationContact-234234{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5px;
+}
+.titileAndParagraph-contact-12321{
+    height: 16vh;
+    width: 75%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.titileAndParagraph-contact-12321 h1{
+    font-size: 4vh;
+    color: #fff;
+}
+.titileAndParagraph-contact-12321 p{
+    color: var(--colorDeParrafos);
+}
+.socialNetwork-contact-3543{
+    height: 15vh;
+    width: 75%;
+    color: #fff;
+}
+.socialNetwork-contact-3543 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.socialNetwork-contact-3543 li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vh;
+}
+.followUS-otherSocialNetwork-23432{
+    height: 15vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 1.5vh;
+    font-size: 2vh;
+}
+.networkFallowME-5456{
+    height: 5vh;
+    width: 75%;
+    display: flex;
+    gap: 1.5vh;
+}
+.networkFallowME-5456 img{
+    height: 3vh;
+    width: 3vh;
+    cursor: pointer;
+}
+
+.sectionFormGlobal-3214213{
+    height: 90%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer-234{
+    height: 90%;
+    width: 80%;
+    background-image: linear-gradient(to top,#010c298c 10%, #003f91 , #010c298c);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputsOne-32432{
+    height: 20vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fila{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.campo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.campo input{
+    height: 6vh;
+    width: 30vh;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #003f91cb;
+    color: #fff;
+    z-index: 0;
+    padding-left: 10px;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+
+}
+.campo input:focus{
+    background-color: #003f91;
+    border: 1px solid #81ff76;
+    outline: none;
+}
+.campo label{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    transform: translateY(12px) translateX(10px);
+    font-size: 1.9vh;
+    height: 8px;
+    width:fit-content ;
+    color: #fff;
+    background-color: #003f91;
+    z-index: 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.campo:focus-within label{
+    transform: translateY(-7px) translateX(12px);
+    z-index: 5;
+    background-color: #003f91;
+    font-size: 1.7vh;
+}
+.inputsTwo-123123{
+    height: 25vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.campoTaxt{
+    height: 25vh;
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    
+}
+.campoTaxt textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #003f91;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2.2vh;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.campoTaxt label{
+    color: #fff;
+    position: absolute;
+    transform: translateX(15px) translateY(-35px);
+    background-color: #003f91;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.25s ease-in-out;
+}
+.campoTaxt:focus-within label{
+    transform: translateY(-70px) translateX(17px);
+}
+.campoTaxt textarea:focus {
+    border: 1px solid #81ff76;
+    outline: none;
+}
+.inputsTwo-123123 button{
+    height: 6vh;
+    width: 30vh;
+    border-radius: 15px;
+    font-size: 2.2vh;
+    background-color: #4973fe;
+    color: #fff;
+    border: none;
+    box-shadow: inset 0 0 10px 0 #000000b9;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.inputsTwo-123123 button:active{
+    transform: scale(0.9);
+}
