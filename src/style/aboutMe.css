@@ -16,7 +16,7 @@
 }
 .title-AboutMe-67126{
     height: 10%;
-    width: 85%;
+    width: 83%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -85,7 +85,8 @@
     align-items: start;
     display: flex;
     position: relative;
-    left: 48px;
+    left: 52px;
+    top: 15px;
 }
 .container-informationAboutExperience-323232 h3{
     font-size: 3vh;

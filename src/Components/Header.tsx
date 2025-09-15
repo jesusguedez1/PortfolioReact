@@ -24,6 +24,8 @@ function Header() {
     <div className='header-Container-723238723'>
       <nav className='navBar-navegation-75623' >
         <div className="containerNavbar-contolledSpaceBox-677232">
+          
+          <img className='imgLogo2-7218' src="/Image/MyLogo.png" alt="" />
 
         <div className="sections-menuNavegation-32234678">
           <img className='imgLogo-7218' src="/Image/MyLogo.png" alt="" />
@@ -37,12 +39,12 @@ function Header() {
         </div>
 
         <div className='dropdown-menu-1227877' onClick={handleResize}>
-            <ul className='ul-1227877' style={{paddingBottom:  isOpen ? '0' : '18px',
-             paddingLeft: isOpen ? '18px' : '0px',
-             backgroundColor: isOpen ? '#dd0000' : 'var(--colorDeCard)'}}>
-              <li className="lineDropdown-1" style={{transform: isOpen ? 'rotate(65deg)' : 'rotate(0deg)'}} ><img src="/Image/iconLineaHorizontal.png" alt="" /></li>
+            <ul className='ul-1227877' style={{paddingBottom:  isOpen ? '0' : '15px',
+             paddingLeft: isOpen ? '13px' : '0px',
+             backgroundColor: isOpen ? '#dd0000' : '#04143d'}}>
+              <li className="lineDropdown-1" style={{transform: isOpen ? 'rotateZ(60deg)' : 'rotate(0deg)'}} ><img src="/Image/iconLineaHorizontal.png" alt="" /></li>
               <li className="lineDropdown-2" style={{display: isOpen ? 'none' : 'flex'}}><img src="/Image/iconLineaHorizontal.png" alt="" /></li>
-              <li className="lineDropdown-3" style={{transform: isOpen ? 'rotate(115deg)' : 'rotate(0deg)'}}><img src="/Image/iconLineaHorizontal.png" alt="" /></li>
+              <li className="lineDropdown-3" style={{transform: isOpen ? 'rotateZ(120deg)' : 'rotate(0deg)'}}><img src="/Image/iconLineaHorizontal.png" alt="" /></li>
             </ul>
         </div>
           </div>
@@ -78,17 +80,18 @@ function Header() {
           <div className="circle-two-6847893"></div>
         </div>
 
-        <div className="navBar-Porfolio-63823">
-          <ul className="container-navbar-8934488" style={{transform: isMobile ? 'translateX(55px)' : 'translateX(225px)'}}>  
-          <li><img src="/Image/iconHome.png" alt="" /><h5>Inicio</h5></li>
-          <li><img src="/Image/iconExperience.png" alt="" /><h5>Experiencia</h5></li>
-          <li><img src="/Image/iconProyectos.png" alt="" /><h5>Proyectos</h5></li>
-          <li><img src="/Image/iconAboutMe.png" alt="" /><h5>Sobre mi</h5></li>
-          <li><img src="/Image/iconsContact.png" alt="" /><h5>Contacto</h5></li>
-          </ul>
-        </div>
+        
 
-          </div>
+        </div>
+          <div className="navBar-Porfolio-63823">
+            <ul className="container-navbar-8934488" style={{transform: isMobile ? 'translateX(0px)' : 'translateX(235px)'}}>  
+              <li><img src="/Image/iconHome.png" alt="" /><h5>Inicio</h5></li>
+              <li><img src="/Image/iconExperience.png" alt="" /><h5>Experiencia</h5></li>
+              <li><img src="/Image/iconProyectos.png" alt="" /><h5>Proyectos</h5></li>
+              <li><img src="/Image/iconAboutMe.png" alt="" /><h5>Sobre mi</h5></li>
+              <li><img src="/Image/iconsContact.png" alt="" /><h5>Contacto</h5></li>
+            </ul>
+        </div>
       </section>
     </div>
   )
