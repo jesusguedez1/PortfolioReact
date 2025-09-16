@@ -157,7 +157,7 @@
     justify-content: space-around;
 }
 .stack-technology-6236632{
-    height: 95%;
+    height:fit-content;
     width: 57%;
     display: flex;
     justify-content: center;
@@ -165,6 +165,7 @@
     flex-direction: column;
     border: 1px solid #4973fe;
     border-radius: 2vh;
+    padding: 13px;
 }
 .titleStackFilled-323235{
     width: 10vh;
@@ -174,10 +175,11 @@
     align-items: center;
     background-color: #172136;
     position: relative;
-    bottom: 10px;
+    bottom: 23px;
 }
 .stack-in-progress-3232{
-    height: 95%;
+    padding: 13px;
+    height: fit-content;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -187,23 +189,25 @@
     border-radius: 2vh;
 }
 .title-ProgressTech-3234{
-     width: 14.5vh;
+    width: 14.5vh;
     height: 2.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #172136;
     position: relative;
-    bottom: 10px;
+    bottom: 25px;
 }
 .container-divider-stack{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2vh;
     align-items: center;
     position: relative;
     bottom: 4px;
+    flex-wrap: wrap;
 }
 .cardTech-individual{
     height: 11vh;
@@ -239,4 +243,82 @@
 .Level-english-1323{
     font-size: 3vh;
     color: #4973fe;
+}
+@media(max-width: 1484px){
+    .aboutMe-12345{
+        height: 110vh;
+        justify-content: flex-start;
+    }
+    .containerInformationGeneral-732747{
+        align-items: center;
+    }
+    .containerInformationGeneral-732747{
+      height: 60%;
+      
+    }
+}
+@media(max-width: 1245px){
+    .containerInformationGeneral-732747{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .photos-aboutMe-container-2 img{
+        height: 29vh;
+        width: 29vh;
+    }
+    .photos-aboutMe-container-1 img{
+        width: 24vh;
+        height: 24vh
+    }
+    .photos-aboutMe-container-1 #coheteGif-328823{
+        height: 8vh;
+        width: 8vh;
+    }
+    .picture-photos-aboutMe-812732{
+        height: 85%;
+        width: 40%;
+    }
+    .information-aboutMe-container-36326{
+        width: 50%;
+    }
+    .information-aboutMe-container-36326 h3{
+        font-size: 2.1vw;
+    }
+    .information-aboutMe-container-36326 h4{
+        font-size: 2.2vw;
+    }
+}
+@media(max-width: 1070px){
+    .aboutMe-12345{
+        height: 125vh;
+    }
+    .containerInformationGeneral-732747{
+        flex-direction: column;
+        height: 65%;
+        gap: 3vh;
+    }
+    .information-aboutMe-container-36326 p{
+        font-size: 1.5vw;
+    }
+    .information-aboutMe-container-36326 button{
+        width: 25vh;
+        font-size: 1.7vh;
+    }
+    .information-aboutMe-container-36326 img{
+        height: 3vh;
+        width: 3vh;
+    }
+    .information-aboutMe-container-36326{
+        height: 42%;
+        width: 60%;
+    }
+    .picture-photos-aboutMe-812732{
+        height: 50%;
+        width: 60%;
+    }
+    .title-AboutMe-67126{
+        height: 7%;
+    }
+    
 }
