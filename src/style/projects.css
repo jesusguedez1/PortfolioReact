@@ -10,6 +10,8 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    position: relative;
+    top: 50px;
 }
 .containerProjects-72364-1672670{
     height: 95%;

@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 50px;
 }
 .containerPrincipal-Contact-3474387{
     height: 90%;
@@ -240,4 +242,118 @@
 .title-and-subtitle-Form-3223 h2 img{
     height: 3.5vh;
     width: 3.5vh;
+}
+@media (max-width:1440px){
+    .formContainer-234{
+        width: 74vh;
+    }
+}
+@media(max-width:1070px){
+    .formContainer-234{
+        width: 60vh;
+        height: 75vh;
+        gap: 1vh;
+    }
+    .fila{
+        flex-direction: column;
+        height: auto;
+        gap: 1.5vh;
+    }
+    .inputsOne-32432{
+        height: 30vh;
+        gap: 1.5vh;
+    }
+    .campo{
+        width: 90%;
+    }
+    .inputText-999{
+        width: 100%;
+    }
+    .campoTaxt{
+        width: 81.5%;
+        height: 19vh;
+    }
+    .inputsTwo-123123{
+        gap: 3vh;
+    }
+    .submitButton{
+        width: 60%;
+        height: 4.5vh;
+        font-size: 2.1vh;
+    }
+    .socialNetwork-contact-3543{
+        height: 12vh;
+    }
+    .titileAndParagraph-contact-12321 {
+        height: 17vh;
+    }
+    .titileAndParagraph-contact-12321 h1{
+        font-size: 3.7vh;
+    }
+    .titileAndParagraph-contact-12321 p{
+        font-size: 1.9vh;
+    }
+    .socialNetwork-contact-3543 li{
+        font-size: 2vh;
+    }
+    .socialNetwork-contact-3543 li img{
+        height: 4.5vh;
+        width: 4.5vh;
+    }
+    .followUS-otherSocialNetwork-23432{
+        font-size: 1.9vh;
+    }
+}
+@media(max-width:815px){
+    .containerPrincipal-Contact-3474387{
+        flex-direction: column;
+        height: 85%;
+    }
+    .globalSection-contact-3234234{
+        height: 140vh;
+    }
+    .informationContact-234234{
+        justify-content: center;
+        width: 55%;
+        height: 30%;
+        padding-top: 40px;
+    }
+    .titileAndParagraph-contact-12321{
+        height: 25vh;
+        width: 100%;
+        text-align: flex-start;
+        align-items: center;
+    }
+    .socialNetwork-contact-3543 ul{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0; 
+    }
+    .socialNetwork-contact-3543{
+        width: 100%;
+        height: 8vh;
+    }
+    .socialNetwork-contact-3543 li{
+        width:fit-content;
+    }
+    .titleFallowUS-2783327{
+        display: none;
+    }
+    .followUS-otherSocialNetwork-23432{
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        height: 10vh;
+    }
+    .networkFallowME-5456{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .sectionFormGlobal-3214213{
+        height: 65%;
+        width: 100%;
+    }
+    .formContainer-234{
+        width: 65vh;
+    }
 }
